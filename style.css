@@ -1,13 +1,28 @@
+@font-face {
+    font-family: MetalMania;
+    src: url(./Fonts/MetalMania-Regular.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
 header {
-
+    
 }
 
 nav {
+    background-color: #3D5A80;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 2% 20%;
+}
+
+a {
+    color: #FCA311;
+    font-family: MetalMania;
+    font-size: 150%;
+    text-decoration: 0;
 }
