@@ -1,28 +1,53 @@
 @font-face {
-    font-family: MetalMania;
-    src: url(./Fonts/MetalMania-Regular.ttf);
+  font-family: MetalMania;
+  src: url(./Fonts/MetalMania-Regular.ttf);
 }
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-header {
-    
+body {
+  background-color: #293241;
 }
 
 nav {
-    background-color: #3D5A80;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2% 20%;
+  background-color: #3d5a80;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 15%;
 }
 
-a {
-    color: #FCA311;
-    font-family: MetalMania;
-    font-size: 150%;
-    text-decoration: 0;
+nav a {
+  color: #fca311;
+  font-family: MetalMania;
+  font-size: 200%;
+  text-decoration: 0;
+  padding: 3%;
+}
+
+nav a:hover {
+  color: #fc5311;
+  background-color: #5a6b81;
+}
+
+nav img {
+  width: 20%;
+  height: 20%;
+}
+
+footer {
+  background-color: #3d5a80;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer div {
+  padding: 2%;
+  margin: 0% 5%;
+  display: flex;
+  justify-content: space-between;
 }
