@@ -3,6 +3,11 @@
   src: url(./Fonts/MetalMania-Regular.ttf);
 }
 
+@font-face {
+  font-family: Ubuntu;
+  src: url(./Fonts/Ubuntu-Regular.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -26,11 +31,12 @@ nav a {
   font-size: 200%;
   text-decoration: 0;
   padding: 3%;
+  transition: 250ms ease-in-out;
 }
 
 nav a:hover {
   color: #fc5311;
-  background-color: #5a6b81;
+  text-shadow: 0 0 50px #fc7f59;
 }
 
 nav img {
@@ -50,4 +56,15 @@ footer div {
   margin: 0% 5%;
   display: flex;
   justify-content: space-between;
+}
+
+footer h2 {
+  color: azure;
+  font-family: Ubuntu;
+  font-size: 100%;
+}
+
+footer button {
+  padding: 0.5%;
+  border-radius: 10px;
 }
