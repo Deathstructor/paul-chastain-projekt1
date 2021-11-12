@@ -14,11 +14,11 @@
 }
 
 body {
-  background-color: #293241;
+  background-color: #1a2450;
 }
 
 nav {
-  background-color: #3d5a80;
+  background-color: #3d1080;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +45,7 @@ nav img {
 }
 
 footer {
-  background-color: #3d5a80;
+  background-color: #3d1080;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -73,14 +73,14 @@ footer button {
   border-color: #fca311;
   margin: 1.5%;
   line-height: 150%;
-  padding: 0 20px;
+  padding: 0 3ch;
   text-align: center;
   font-size: 0.9vw;
   font-family: Ubuntu;
   color: azure;
   background-color: #fca311;
   text-shadow: 2px 2px 2px #633d00;
-  border-radius: 6px;
+  border-radius: 1ch;
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.2),
@@ -103,10 +103,27 @@ footer a {
 
 .content {
   display: flex;
-  justify-content: center;
-  margin: 5%;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 25%;
 }
 
 .content img {
-  width: 60%;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.content h1 {
+  color: #fca311;
+  font-size: 2.5vw;
+  font-family: MetalMania;
+  line-height: 200%;
+}
+
+.content p {
+  color: #fca311;
+  font-size: 1vw;
+  font-family: Ubuntu;
+  text-align: center;
+  line-height: 150%;
 }
