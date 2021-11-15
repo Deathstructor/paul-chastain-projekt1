@@ -14,11 +14,11 @@
 }
 
 body {
-  background-color: #1a2450;
+  background-color: #1c2a55;
 }
 
 nav {
-  background-color: #3d1080;
+  background-color: #20356e;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +45,7 @@ nav img {
 }
 
 footer {
-  background-color: #3d1080;
+  background-color: #20356e;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -101,29 +101,43 @@ footer a {
   margin: 0 1.5vw;
 }
 
-.content {
+/* Content i index.html  */
+.contentIndex {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 5% 25%;
 }
 
-.content img {
+.contentIndex img {
   width: 100%;
   margin-bottom: 2%;
 }
 
-.content h1 {
+.contentIndex h1 {
   color: #fca311;
   font-size: 2.5vw;
   font-family: MetalMania;
   line-height: 200%;
 }
 
-.content p {
+.contentIndex p {
   color: #fca311;
   font-size: 1vw;
   font-family: Ubuntu;
   text-align: center;
   line-height: 150%;
+}
+
+/* Content i aboutus.html  */
+.contentAbout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contentAbout h1 {
+  color: #fca311;
+  font-size: 2.5vw;
+  font-family: MetalMania;
 }
