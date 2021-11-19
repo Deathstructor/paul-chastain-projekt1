@@ -129,6 +129,7 @@ footer a {
 .contentIndex img {
   width: 100%;
   margin-bottom: 2%;
+  border-radius: 30px;
 }
 
 .contentIndex h1 {
@@ -145,6 +146,16 @@ footer a {
   text-align: center;
   line-height: 150%;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -188,17 +199,31 @@ footer a {
 
 .contentHardware p {
   color: #fca311;
-  font-size: 1.25vw;
+  font-size: 1vw;
   font-family: Ubuntu;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Gör att text och bild hänger ihop i samma container */
 .headstock {
   display: flex;
   align-items: center;
 }
 .headstock img {
   width: 25%;
-  margin: 1%;
+  margin: 2%;
+  border-radius: 30px;
 }
 
 .tuners {
@@ -207,7 +232,8 @@ footer a {
 }
 .tuners img {
   width: 30%;
-  margin: 1%;
+  margin: 2%;
+  border-radius: 30px;
 }
 
 .neck {
@@ -216,7 +242,8 @@ footer a {
 }
 .neck img {
   width: 40%;
-  margin: 1%;
+  margin: 2%;
+  border-radius: 30px;
 }
 
 .frets {
@@ -225,7 +252,8 @@ footer a {
 }
 .frets img {
   width: 40%;
-  margin: 1%;
+  margin: 2%;
+  border-radius: 30px;
 }
 
 .strings {
@@ -234,7 +262,8 @@ footer a {
 }
 .strings img {
   width: 40%;
-  margin: 1%;
+  margin: 2%;
+  border-radius: 30px;
 }
 
 .guitarbody {
@@ -243,8 +272,38 @@ footer a {
 }
 .guitarbody img {
   width: 40%;
-  margin: 1%;
+  margin: 2%;
+  border-radius: 30px;
 }
+
+.pickups {
+  display: flex;
+  align-items: center;
+}
+.pickups img {
+  width: 40%;
+  margin: 2%;
+  border-radius: 30px;
+}
+
+.bridge {
+  display: flex;
+  align-items: center;
+}
+.bridge img {
+  width: 40%;
+  margin: 2%;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -254,6 +313,11 @@ footer a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  border: 15px double #fc5311;
+  border-radius: 30px;
+  background-color: #20356e;
+  margin: 5% 20%;
+  padding: 3%;
 }
 
 .contentAbout h1 {
@@ -275,4 +339,183 @@ footer a {
   font-family: Ubuntu;
   text-align: center;
   margin: 0 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Content i store.html */
+.contentStore {
+  text-align: center;
+  border: 15px double #fc5311;
+  border-radius: 30px;
+  background-color: #20356e;
+  margin: 5% 20%;
+  padding: 3%;
+}
+
+.contentStore h1 {
+  color: #fca311;
+  font-size: 2.5vw;
+  font-family: MetalMania;
+  margin-bottom: 10%;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.mainContainer img {
+    float: left;
+    width:  100px;
+    height: 400px;
+    object-fit: contain;
+    margin-top: 5%;
+}
+
+.leftContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  transition: 250ms ease-in-out;
+}
+
+.leftContainer h2 {
+  color: #000000;
+  font-size: 1vw;
+  font-family: Ubuntu;
+  text-align: center;
+  padding: 10%;
+}
+
+.rightContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  transition: 250ms ease-in-out;
+}
+
+.rightContainer h2 {
+  color: #000000;
+  font-size: 1vw;
+  font-family: Ubuntu;
+  text-align: center;
+  padding: 10%;
+}
+
+.deanGuitar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #fca311;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-decoration: 0;
+  transition: 150ms ease-in-out;
+  margin-bottom: 15%
+}
+.deanGuitar:hover {
+  border-color: #fc5311;
+}
+.deanGuitar img {
+  width: 40%;
+}
+
+.solarGuitar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #fca311;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-decoration: 0;
+  transition: 150ms ease-in-out;
+  margin-bottom: 15%
+}
+.solarGuitar:hover {
+  border-color: #fc5311;
+}
+.solarGuitar img {
+  width: 40%;
+}
+
+.schecterGuitar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #fca311;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-decoration: 0;
+  transition: 150ms ease-in-out;
+  margin-bottom: 15%
+}
+.schecterGuitar:hover {
+  border-color: #fc5311;
+}
+.schecterGuitar img {
+  width: 40%;
+}
+
+.ibanezGuitar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #fca311;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-decoration: 0;
+  transition: 150ms ease-in-out;
+  margin-bottom: 15%
+}
+.ibanezGuitar:hover {
+  border-color: #fc5311;
+}
+.ibanezGuitar img {
+  width: 40%;
+}
+
+.jacksonGuitar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #fca311;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-decoration: 0;
+  transition: 150ms ease-in-out;
+  margin-bottom: 15%
+}
+.jacksonGuitar:hover {
+  border-color: #fc5311;
+}
+.jacksonGuitar img {
+  width: 40%;
+}
+
+.espGuitar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #fca311;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-decoration: 0;
+  transition: 150ms ease-in-out;
+  margin-bottom: 15%
+}
+.espGuitar:hover {
+  border-color: #fc5311;
+}
+.espGuitar img {
+  width: 40%;
 }
