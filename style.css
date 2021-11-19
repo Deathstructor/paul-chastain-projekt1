@@ -152,8 +152,13 @@ footer a {
 .contentHardware {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  margin: 0 20%;
+  margin: 5% 20%;
+  padding: 5%;
+  border: 15px double #fc5311;
+  border-radius: 30px;
+  background-color: #20356e;
 }
 
 .contentHardware h1 {
@@ -185,6 +190,60 @@ footer a {
   color: #fca311;
   font-size: 1.25vw;
   font-family: Ubuntu;
+}
+
+.headstock {
+  display: flex;
+  align-items: center;
+}
+.headstock img {
+  width: 25%;
+  margin: 1%;
+}
+
+.tuners {
+  display: flex;
+  align-items: center;
+}
+.tuners img {
+  width: 30%;
+  margin: 1%;
+}
+
+.neck {
+  display: flex;
+  align-items: center;
+}
+.neck img {
+  width: 40%;
+  margin: 1%;
+}
+
+.frets {
+  display: flex;
+  align-items: center;
+}
+.frets img {
+  width: 40%;
+  margin: 1%;
+}
+
+.strings {
+  display: flex;
+  align-items: center;
+}
+.strings img {
+  width: 40%;
+  margin: 1%;
+}
+
+.guitarbody {
+  display: flex;
+  align-items: center;
+}
+.guitarbody img {
+  width: 40%;
+  margin: 1%;
 }
 
 
