@@ -382,6 +382,21 @@ footer a {
     margin-top: 5%;
 }
 
+.mainContainer h2 {
+  color: #000000;
+  font-size: 1vw;
+  font-family: Ubuntu;
+  text-align: center;
+  padding: 10%;
+}
+
+.mainContainer h3 {
+  color: #000000;
+  font-size: 1.1vw;
+  font-family: Ubuntu;
+  margin-bottom: 3%;
+}
+
 .leftContainer {
   display: flex;
   flex-wrap: wrap;
@@ -389,27 +404,11 @@ footer a {
   transition: 250ms ease-in-out;
 }
 
-.leftContainer h2 {
-  color: #000000;
-  font-size: 1vw;
-  font-family: Ubuntu;
-  text-align: center;
-  padding: 10%;
-}
-
 .rightContainer {
   display: flex;
   flex-wrap: wrap;
   width: 30%;
   transition: 250ms ease-in-out;
-}
-
-.rightContainer h2 {
-  color: #000000;
-  font-size: 1vw;
-  font-family: Ubuntu;
-  text-align: center;
-  padding: 10%;
 }
 
 .deanGuitar {
@@ -426,9 +425,6 @@ footer a {
 .deanGuitar:hover {
   border-color: #fc5311;
 }
-.deanGuitar img {
-  width: 40%;
-}
 
 .solarGuitar {
   display: flex;
@@ -443,9 +439,6 @@ footer a {
 }
 .solarGuitar:hover {
   border-color: #fc5311;
-}
-.solarGuitar img {
-  width: 40%;
 }
 
 .schecterGuitar {
@@ -462,9 +455,6 @@ footer a {
 .schecterGuitar:hover {
   border-color: #fc5311;
 }
-.schecterGuitar img {
-  width: 40%;
-}
 
 .ibanezGuitar {
   display: flex;
@@ -479,9 +469,6 @@ footer a {
 }
 .ibanezGuitar:hover {
   border-color: #fc5311;
-}
-.ibanezGuitar img {
-  width: 40%;
 }
 
 .jacksonGuitar {
@@ -498,9 +485,6 @@ footer a {
 .jacksonGuitar:hover {
   border-color: #fc5311;
 }
-.jacksonGuitar img {
-  width: 40%;
-}
 
 .espGuitar {
   display: flex;
@@ -516,6 +500,87 @@ footer a {
 .espGuitar:hover {
   border-color: #fc5311;
 }
-.espGuitar img {
-  width: 40%;
+
+
+
+
+
+
+
+
+
+/* Produktsidaorna för gitarrerna */
+.productMainContainer {
+  border: 15px double #fc5311;
+  border-radius: 30px;
+  background-color: #20356e;
+  margin: 5% 20%;
+  padding: 3%;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fca311;
+}
+
+.product img {
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 5%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.product h1 {
+  margin: 3% 0%;
+  font-family: MetalMania;
+  font-size: 2vw;
+}
+
+.product h2 {
+  margin: 5% 0%;
+  font-family: Ubuntu;
+  font-size: 1.5vw;
+}
+
+.specs {
+  font-family: Ubuntu;
+  font-size: 1.1vw;
+  margin-left: 5%;
+}
+
+.product p {
+  font-family: Ubuntu;
+  font-size: 1vw;
+  margin-bottom: 5%;
+}
+
+.product button{
+  border-color: #fca311;
+  line-height: 150%;
+  padding: 1ch;
+  text-align: center;
+  font-size: 0.9vw;
+  font-family: Ubuntu;
+  color: azure;
+  background-color: #fca311;
+  text-shadow: 2px 2px 2px #633d00;
+  border-radius: 1ch;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.4) 50%,
+    rgba(0, 0, 0, 0.2)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px -3px #633d00;
+}
+
+.product button:hover {
+  background-color: #fcbd11;
+  border-color: #fcbd11;
+  transition: 250ms ease-in-out;
 }
